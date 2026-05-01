@@ -1,0 +1,13 @@
+baseURL = "https://flights.techpawz.com/"
+languageCode = "en"
+title = "Flights Guide"
+theme = "blowfish"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
